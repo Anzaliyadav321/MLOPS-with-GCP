@@ -1,0 +1,102 @@
+Let's continue with the MLOPs
+capabilities of Vertex AI. The next capability is
+understanding model behavior, which reveals the why behind
+your model and predictions. You can use Vertex Explainable AI to
+understand your models outputs for classification and regression tasks. Vertex Explainable AI tells you how much
+each feature in the data contributes to the predicted result and
+identifies model bias. Vertex Explainable AI is a fully-managed
+service on Vertex AI that offers feature based explanations by
+integrating feature attributions or feature importance into Vertex AI. Vertex Explainable AI provides
+a better understanding of model decision-making feature. Attributions are an explain ability method
+that shows you how much each input feature contributed to your model's predictions. And to the model's overall predictive
+power by using sampled shapeley integrated gradients and explanation with
+ranked area integral or XRAI. When you request predictions, you get
+predicted values that are appropriate for your model. When you request explanations, you get the predictions along with
+feature attribution information. Explainable AI is built into
+multiple Vertex AI services. You can currently get feature
+attributions in Vertex AI prediction AutoML tables and
+Vertex AI workbench. Feature attribution is supported for
+all types of models, both AutoML and custom trained frameworks like tensorflow,
+psychic learn, or extra boost and modalities such as images,
+text tabular, or video. Vertex Explainable AI offers
+three methods to use for feature attributions, sampled shapeley,
+integrated gradients and explanation with ranked area integral or
+XRAI. Each feature attribution method
+is based on shapeley values, which are a cooperative game theory
+algorithm that assigns credit to each player in a game for
+a particular outcome. Applying shapeley values to ML models
+means that each model feature is treated as a player in the game. Vertex Explainable AI assigns
+proportional credit to each feature for the outcome of a particular prediction. For a thorough comparison of attribution
+methods, see the AI explanations white paper and check the feature-based
+explanations documentation. The next MLOPs capability of Vertex AI
+is proactively monitoring your model performance by using
+Vertex AI model monitoring. A model deployed in production
+performs best on prediction when the input data is similar
+to the training data. When the input data deviates from
+the data used to train the model, the model's performance can deteriorate
+even if the model itself hasn't changed. To help you maintain a models performance, Vertex AI provides a host of products
+to monitor and govern your models. Vertex AI model monitoring maintains
+your model's performance by monitoring the model's prediction
+input data for feature skew and drift. Training serving skew occurs when
+the feature data distribution and production deviates from the feature data
+distribution used to train the model. If the original training
+data is available, you can enable skew detection to monitor
+your models for training serving skew. Prediction drift occurs when
+feature data distribution and production changes
+significantly over time. If the original training
+data isn't available, you can enable drift detection to monitor
+the input data for changes over time. You can enable both skew and drift
+detection on Vertex AI model monitoring. But you should consider skew detection if
+you provide the original training dataset for your model. Otherwise, you should
+enable drift detection. For more information, see introduction
+to Vertex AI model monitoring. The next capability is tracking and comparing multiple experiment runs and
+analyzing main model metrics. The goal when developing a model for a
+problem is to identify the best model for that particular use case. Vertex AI host different products
+to monitor and govern your models. For example, you can use Vertex AI
+experiments to track, analyze, compare, and search across different
+model architectures, different ML frameworks such
+as tensorflow, pytorch, or psychic learn, different hyper-parameters
+and different training environments. In order to understand the nature
+of Vertex AI experiments, let's look at some crucial terms. Recall then artifact is a discrete
+entity or piece of data produced and consumed by an ML workflow. A context is used to group artifacts and executions together under a single
+queriable and taped category. Context can be used to
+represent sets of metadata. An example of a context can
+be a run of ML pipeline. Vertex AI experiments is a context in
+Vertex ML metadata where an experiment can contain an experiment runs
+in addition to an pipeline runs. An experiment run consists of parameters,
+summary metrics, time series metrics, artifacts, executions and
+Vertex AI resources such as, pipeline job, which is created when users want to run
+an ML pipeline on Vertex AI pipelines. Another tool that lets you track,
+visualize, and compare ML experiments and share them with your team
+is Vertex AI TensorBoard. Open-source TensorBoard,
+TB is a Google open-source project for ML experiment visualization. Vertex AI TensorBoard is an enterprise
+ready managed version of tensorboard. Executions and artifacts of a pipeline run
+are viewable in the Google Cloud Console. Vertex AI TensorBoard provides various
+detailed visualizations that include tracking and visualizing metrics,
+such as loss and accuracy over time. Visualizing model, computational graphs,
+such as OPs and layers. Viewing histograms of weights biases or
+other tensors as they change over time. Projecting embeddings to
+a lower dimensional space and displaying image text and audio samples. Check out the documentation to learn more
+about Vertex AI TensorBoard features and capabilities. You can also simplify your MLOPS processes
+with Vertex AI tabular workflows. Vertex AI tabular workflow for end-to-end AutoML is a managed
+instance of Vertex AI pipelines. It is a set of integrated, fully managed,
+and scalable pipelines for end-to-end ML with tabular data that
+uses Google's AutoML technology for model development and providing
+customization options to fit your needs. The following are some of the benefits of
+tabular workflow for end-to-end AutoML. Supports large datasets that
+are multiple terabytes in size. Lets you improve stability and
+lower training time by limiting the search space of architecture types or
+skipping architecture search. Lets you improve training speed by
+manually selecting the hardware used for training and architecture search. Lets you reduce model size and
+improve latency with distillation or by changing the ensemble size. Additionally, each AutoML component can
+be inspected in a powerful pipelines graph interface that lets you
+see the transformed data tables, evaluated model architectures,
+and many more details. These AutoML components also
+provide extended flexibility and transparency, such as being able
+to customize parameters, hardware, view process status, logs, and more. In this section, you learned about
+Vertex AI MLOPs tools that help you collaborate across ML teams and improve
+your models through predictive model, monitoring, alerting, diagnosis,
+and actionable explanations. All of these tools are modular so you can integrate them into your
+existing systems as needed. In the next section,
+which is the final section of the course, you review the main concepts you
+learned throughout this course.

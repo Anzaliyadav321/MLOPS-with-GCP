@@ -1,0 +1,76 @@
+Welcome to the second section of the machine-learning operations or MLOps Fundamentals course. In this part of the course, you'll be introduced
+to vertex AI, Google's unified AI platform. Be introduced to MLOps
+on vertex AI and explore how vertex AI
+helps the MLOps workflow. If you completed the
+Machine Learning on Google Cloud course, you'll recall that building an ML model and taking
+it to production requires expertise
+in both the workflow and the products required. This includes tools
+and services to build, package, deploy, and
+monitor a model. Let's recall a few key
+constructs in machine learning. First, you create datasets
+by ingesting the data, analyzing the data, and cleaning it up. There are different
+processes for creating datasets such as
+extract, transform, and load or ETL and extract, load, and transform or ELT. In the next step
+called model training, you train a model. This includes experimentation
+with feature processing, model architecture, and
+hyperparameter tuning. You also revert or iterate the model when
+there is new data, when the code changes
+or based on a schedule. You then evaluate and
+compare the model to existing model versions
+and finally you deploy the model and use it for
+online and batch predictions. Recall that this end-to-end
+process is called MLOps, as defined in the
+previous section. It's important to note
+that the type of data used to train a model will affect
+the rest of the pipeline. For example are your data JPEG files
+or TensorFlow records? Do you store your data in
+Cloud storage or BigQuery? Also, the way you deploy
+a TensorFlow model is different from how you
+deploy a PyTorch model. Even the model
+deployment process might differ based on whether the model is created with AutoML or a custom
+TensorFlow model. With so many variables to consider when you create
+a machine-learning model, an end-to-end ML platform like vertex AI, brings many benefits. Vertex AI brings together all the Google Cloud services
+for building ML and AI in one unified platform
+which helps enterprises realized more value with their data and accelerate
+time to value. Vertex AI lets you unify certain
+parts of an ML workflow. A dataset can either be
+structured or unstructured. It could have managed
+metadata including annotations and can be stored
+anywhere on Google Cloud. This currently includes
+Cloud Storage and BigQuery. A training pipeline
+consists of steps to train an ML model
+by using a dataset. The containerization helps
+with generalization, reproducibility,
+and auditability. An ML model which consists of metadata can be built with
+the training pipeline or it can be directly loaded from other resources as long as it
+is in a compatible format. An endpoint can be
+invoked by users for online predictions
+and explanations. It can have one or more models and one or more versions of those models with disambiguation carried out based
+on the request. The main idea is that
+these endpoints are the same regardless
+of the dataset type, training pipeline, or model. It's all mix and match. After you create a dataset, you can use it for
+different models. Please check vertex AI
+documentation to learn more about vertex AI because vertex
+AI is a unified platform. The user interface can
+be used to directly manage the following
+stages in the ML workflow, creating a dataset,
+and uploading data. Training an ML
+model on your data, which includes
+training the model, evaluating model accuracy, and tuning hyperparameters
+for custom training only, uploading and storing
+your model in vertex AI, deploying your trained model to an endpoint for
+serving predictions, sending prediction requests
+to your end point, specifying a prediction
+traffic split in your endpoint and managing
+your models and endpoints. Vertex AI is flexible. You can choose either AutoML, which lets you
+train a model with minimal technical effort
+or custom training which lets you create a
+training application that is optimized for your
+targeted outcome. In summary, vertex AI offers
+fast experimentation, accelerated deployment and
+simplified model management to achieve your ML goals. With vertex AI, you have a
+platform to experiment with ML model development
+and quickly deploy solutions that
+will help you meet your machine learning goals. For more information about vertex AI explore
+more courses in the ML training catalog at
+cloud.google.com/training.

@@ -1,0 +1,61 @@
+Now, let's explore how vertex AI
+can help with MLOps processes. Vertex AI gives you total flexibility and the tools you use to
+complete your ML journeys. Vertex AI was designed to automate ML
+processes to prevent ML practitioners from starting from the beginning. You can scale your ML models faster and more efficiently with the managed
+infrastructure provided by Vertex AI. You can also set up ML environments
+quickly, automate orchestration, manage large clusters and
+set up low latency applications. Vertex AI provides a range of AI and
+ML tools for users of different skill sets
+alongside built in MLOps capabilities, which lets enterprises improve insights,
+make predictions, and automate core business processes
+across their organization. With vertex AI, you can manage and
+govern your ML models. Leverage Google cloud manage services
+to simplify your MLOps processes, reveal the explanations behind
+your models and predictions, monitor your data and
+models performance, and track and compare multiple experiment runs and
+analyze main model metrics. Let's look at vertex AI's key components
+that let you perform those capabilities. Let's start with managing and
+governing capabilities. You can manage and govern your ML
+models with vertex AI feature store, model registry, ML metadata,
+and model evaluation. Manage features, you can use vertex
+AI feature store to create and manage features. Vertex AI feature store lets you share and
+reuse ML features across use cases, serve ML features at scale with low latency,
+and alleviate training serving skew. Manage models, you can use the vertex
+AI model registry to manage your ML models and
+use vertex ML metadata to track and analyze the metadata produced
+by your ML workflows. Vertex AI model registry is a central
+repository where you can manage the lifecycle of your ML models. Vertex AI model registry lets you
+register, organize, track and version your trained and
+deployed ML models, govern the model launch process and maintain model
+documentation and reporting. Vertex ML metadata lets you
+record the metadata and artifacts produced by your ML system. Therefore, lets you
+automatically track inputs and outputs of all components, query
+the metadata to help analyze debug and audit the performance of your ML system or
+the artifacts that it produces. And visualize, analyze and
+compare detailed ML lineage. Evaluate models, you can run model
+evaluation in vertex AI in several ways. First, you can create evaluations through
+vertex AI model registry in the Google cloud console. Second, you can use the model
+evaluation feature from vertex AI as a pipeline component
+with vertex AI pipelines. Let's move on to orchestrating
+ML workflows capabilities. You can simplify ML operations by
+using vertex AI pipelines to automate, monitor, and govern your ML systems. Vertex AI pipelines lets you orchestrate
+your ML workflow in a serverless manner. Thanks to Google Cloud's managed
+services suite such as BigQuery, vertex training or data flow. ML pipelines are portable and scalable ML
+workflows that are based on containers. Therefore, ML practitioners
+can iterate faster, get more of their work into production and
+work more independently. ML pipelines are composed of a set of
+input parameters and a list of steps. Each step is an instance
+of a pipeline component. ML pipelines let ML practitioners spend
+their time building ML solutions instead of building the infrastructure needed
+to get those solutions into production. You can use ML pipelines to apply
+MLOps strategies to automate and monitor repeatable processes. Experiment by running an ML workflow
+with different sets of hyper parameters, for example,
+different number of training steps or iterations, reuse the pipelines
+workflow to train a new model. You can use vertex AI
+pipelines to run pipelines that were built using the coop flow
+pipelines SDK or tensor flow extended. To learn more about choosing between
+the coop flow pipelines SDK and TFX check the reading at
+the end of the section. After you're satisfied
+about your ML workflow, the next step is to understand
+your model's behavior. You'll explore that
+process in the next video.

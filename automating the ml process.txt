@@ -1,0 +1,97 @@
+In any ML project, after you define the
+business use case and establish the
+success criteria, the process of delivering an ML model to production
+involves many steps. These include data extraction, data analysis, data preparation, model training,
+model evaluation, model validation, model
+serving, and model monitoring. These steps can be completed manually or by an
+automatic pipeline. The level of automation
+of these steps defines the maturity
+of the ML process. Many ML professionals build and deploy their
+models manually. This is called maturity level 0. Other ML practitioners perform continuous training
+of their models by automating the ML pipeline. This is maturity level 1. Finally, the most
+mature approach completely automates and
+integrates the ML training, validation, and
+deployment phases. This is maturity level 2. Let's look at each
+of these levels of automation in a
+little more detail. At the basic level of
+maturity or Level 0, many teams have
+data scientists and ML researchers who can build
+state-of-the-art models, but their process
+for building and deploying ML models
+is entirely manual. The characteristics
+of MLOps level 0 are a manual script-driven
+and interactive process, a disconnection between
+ML and operation teams, infrequent releases iterations, no continuous integration, continuous delivery or
+continuous deployment. Deployment refers to
+the prediction service and the lack of active
+performance monitoring. Check the documentation
+to learn more about the characteristics and
+challenges of MLOps level 0. The goal of MLOps
+level 1 is to perform continuous training of the model by automating the ML pipeline. This lets you achieve
+the continuous delivery of the model prediction service. To automate the process of using new data to retrain
+models in production, you must introduce
+automated data and model validation
+steps to the pipeline, as well as pipeline triggers
+and metadata management. The characteristics
+of MLOps level 1 are rapid experiment, continuous training of
+the model in production, experimental
+operational symmetry, modularized code for
+components and pipelines, continuous deployment of models, which means continuous
+delivery of models and automated
+pipeline deployment. To learn more about the
+characteristics and challenges of MLOps level 1, check the documentation at
+the end of this section. One important note is that, to enable ML
+continuous training, you must add a couple of components such as data
+and model validation, feature store,
+metadata management, and ML pipeline triggers
+to the architecture. You'll explore all of
+these components in upcoming courses of this series. MLOps level 2 can be characterized as
+continuous integration, continuous deployment or CI/CD pipeline automation
+because you need a robust automated CI/CD system for a rapid and reliable update of the pipelines in production. This automated CI/CD system lets ML practitioners rapidly explore new ideas around
+feature engineering, model architecture,
+and hyperparameters. MLOps level 2 achieves
+this automation, thanks to the following
+components: source control, test and build services,
+deployment services, model registry, feature store, ML metadata store, ML
+pipeline orchestrator. In any ML project, after you define the
+business use case and establish the
+success criteria, the process of delivering an ML model to production
+involves many steps. These include development
+and experimentation. You iteratively test
+new ML algorithms and new modeling where the experiment steps
+are orchestrated. The output of this stage
+is the source code for the ML pipeline steps that are then pushed to a
+source repository. Then pipeline
+continuous integration. You build source code
+and run various tests. The outputs of this stage are pipeline components
+such as packages, executables, and artifacts that are deployed in a later stage. Next is pipeline
+continuous delivery. You deploy the
+artifacts produced by the CI stage to the
+target environment. The output of this stage is a deployed pipeline with the new implementation
+of the model. Then there's
+automated triggering. The pipeline is
+automatically executed in production based on a schedule or in response to a trigger. The output of this stage is a trained model that is
+pushed to the model registry. The next is model
+continuous delivery. You serve the trained model as a prediction service
+for the predictions. The output of this stage is a deployed model
+prediction service. Finally, monitoring. You collect statistics on the model performance
+based on live data. The output of this stage
+is a trigger to execute the pipeline or to execute
+a new experiment cycle. These steps can be completed manually or by an
+automatic pipeline. In the full stack, for a machine learning
+system with Vertex AI, you can use Vertex AI Feature
+Store for feature store, Vertex AI workbench
+for model development, Cloud Source Repositories
+as your code repository, Cloud Build for training
+operationalization, Artifact Registry for
+your pipeline components, Vertex AI Pipelines for
+your training pipeline, Vertex AI Model Registry
+as your model registry, Vertex AI ML Metadata
+for your ML metadata, Cloud Build for
+model deployment, Vertex AI Prediction
+for prediction serving, BigQuery for serving logs, Vertex AI Model Monitoring
+and Vertex Explainable AI or XAI in short for
+continuous monitoring. To learn more about
+the characteristics of MLOps level 2 and continuous integration/continuous
+delivery and continuous deployment concepts, check the documentation
+at the end of the course.

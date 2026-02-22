@@ -1,0 +1,304 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.670
+Before we start,
+let's look at what
+
+2
+00:00:02.670 --> 00:00:05.595
+the ML practitioner
+term refers to.
+
+3
+00:00:05.595 --> 00:00:08.190
+Many users within
+an organization
+
+4
+00:00:08.190 --> 00:00:10.755
+have a part to play
+in the ML lifecycle.
+
+5
+00:00:10.755 --> 00:00:13.035
+For example, a product manager
+
+6
+00:00:13.035 --> 00:00:14.580
+who simply types of query to
+
+7
+00:00:14.580 --> 00:00:16.350
+pull necessary insights from
+
+8
+00:00:16.350 --> 00:00:18.630
+a data dashboard
+or data warehouse.
+
+9
+00:00:18.630 --> 00:00:21.240
+Or a data scientist who works on
+
+10
+00:00:21.240 --> 00:00:24.510
+different aspects of building
+and validating models.
+
+11
+00:00:24.510 --> 00:00:28.230
+Think also about an ML engineer
+who is responsible for
+
+12
+00:00:28.230 --> 00:00:30.180
+the model to work
+without issues to serve
+
+13
+00:00:30.180 --> 00:00:32.400
+end-users in a
+production environment.
+
+14
+00:00:32.400 --> 00:00:34.905
+ML practitioner is
+used to describe
+
+15
+00:00:34.905 --> 00:00:38.365
+all these different roles
+throughout the ML lifecycle.
+
+16
+00:00:38.365 --> 00:00:42.230
+Now, let's look at the challenges
+these ML practitioners
+
+17
+00:00:42.230 --> 00:00:44.180
+face when they
+operationalize and
+
+18
+00:00:44.180 --> 00:00:46.660
+make their models
+available for production.
+
+19
+00:00:46.660 --> 00:00:49.010
+These challenges
+include managing
+
+20
+00:00:49.010 --> 00:00:51.365
+and keeping track
+of complex details,
+
+21
+00:00:51.365 --> 00:00:53.030
+such as data, model
+
+22
+00:00:53.030 --> 00:00:56.620
+architectures, hyperparameters,
+and experiments.
+
+23
+00:00:56.620 --> 00:00:58.975
+As for specific pinpoints,
+
+24
+00:00:58.975 --> 00:01:01.520
+we hear it can be
+challenging to keep track
+
+25
+00:01:01.520 --> 00:01:04.115
+of different versions of
+the models and their codes.
+
+26
+00:01:04.115 --> 00:01:06.350
+Different training
+procedure parameters,
+
+27
+00:01:06.350 --> 00:01:08.780
+hyperparameter values
+in each trial,
+
+28
+00:01:08.780 --> 00:01:11.480
+and performance metrics control
+
+29
+00:01:11.480 --> 00:01:13.620
+the experiments
+space to advance.
+
+30
+00:01:13.620 --> 00:01:15.860
+In every iteration,
+these practitioners
+
+31
+00:01:15.860 --> 00:01:18.170
+need to monitor what
+changes are being made,
+
+32
+00:01:18.170 --> 00:01:19.895
+which ideas are being tried,
+
+33
+00:01:19.895 --> 00:01:21.035
+which ideas work,
+
+34
+00:01:21.035 --> 00:01:22.790
+and which ideas don't,
+
+35
+00:01:22.790 --> 00:01:25.160
+pinpoint the best
+performing model when
+
+36
+00:01:25.160 --> 00:01:27.635
+the models are benchmarked
+against each other.
+
+37
+00:01:27.635 --> 00:01:30.350
+The best model here refers
+to the one that delivers
+
+38
+00:01:30.350 --> 00:01:33.595
+the ideal result for
+your specific use case.
+
+39
+00:01:33.595 --> 00:01:35.720
+Collaborate with
+data scientists,
+
+40
+00:01:35.720 --> 00:01:39.455
+data engineers, ML engineers,
+application developers,
+
+41
+00:01:39.455 --> 00:01:42.620
+site reliability engineers,
+business analysts and
+
+42
+00:01:42.620 --> 00:01:46.375
+business users in
+operationalizing the ML models.
+
+43
+00:01:46.375 --> 00:01:49.410
+Then there's the matter
+of reproducibility.
+
+44
+00:01:49.410 --> 00:01:50.870
+Deploying a model to
+
+45
+00:01:50.870 --> 00:01:52.070
+a production environment is
+
+46
+00:01:52.070 --> 00:01:54.275
+difficult unless it
+can be reproduced.
+
+47
+00:01:54.275 --> 00:01:55.970
+In fact, bypassing
+
+48
+00:01:55.970 --> 00:01:57.920
+the reproducibility
+of the model is often
+
+49
+00:01:57.920 --> 00:02:01.720
+discouraged or disallowed
+by policies or regulations.
+
+50
+00:02:01.720 --> 00:02:04.340
+Reproducibility can
+be a major concern
+
+51
+00:02:04.340 --> 00:02:06.350
+for ML practitioners because
+
+52
+00:02:06.350 --> 00:02:07.760
+they want to be able to rerun
+
+53
+00:02:07.760 --> 00:02:11.260
+the best model with a more
+comprehensive parameter sweep.
+
+54
+00:02:11.260 --> 00:02:13.700
+When a team successfully
+trained and make
+
+55
+00:02:13.700 --> 00:02:16.160
+some model ready for production
+in a streamlined fashion,
+
+56
+00:02:16.160 --> 00:02:19.480
+performance, and agility
+are considerably improved.
+
+57
+00:02:19.480 --> 00:02:22.580
+Even if there's a manual
+review step in the pipeline,
+
+58
+00:02:22.580 --> 00:02:24.500
+automation ensures
+that each job is
+
+59
+00:02:24.500 --> 00:02:27.410
+configured and executed
+in a repeatable manner,
+
+60
+00:02:27.410 --> 00:02:29.780
+which reduces the
+risk of errors.
+
+61
+00:02:29.780 --> 00:02:32.315
+Also, for a production
+application,
+
+62
+00:02:32.315 --> 00:02:33.830
+the model needs to be updated
+
+63
+00:02:33.830 --> 00:02:35.840
+regularly as new data comes in.
+
+64
+00:02:35.840 --> 00:02:39.480
+Therefore, traceability
+becomes paramount.

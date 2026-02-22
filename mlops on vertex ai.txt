@@ -1,0 +1,96 @@
+Now that you’re familiar with what Vertex
+AI is, let’s explore how Vertex AI can help with MLOps processes. If you worked with ML models before, you know
+that training and deploying ML models can be time-consuming, because you need to repeatedly
+add new data and features, try different models, and tune parameters to achieve the best result. To solve this problem, organizations need
+to build the necessary ML engineering culture and capability. If we consider that MLOps is a set of standardized
+processes and technology capabilities for building, deploying, and operationalizing
+ML systems rapidly and reliably, it can be the answer that you’re looking for in order
+to build ML engineering culture and capability. Before we look at workflows and capabilities
+needed in each phase of the MLOps lifecycle, let’s explore the MLOps concept in depth: MLOps aims to unify ML system development
+or ML with ML system operations or Ops. It advocates automating and monitoring every
+step of ML system construction. And finally, it maintains aligned versions
+of data and models alongside code and components. At this point, it is fair to ask this question:
+How does MLOps achieve each of these goals? To answer this question, it’s important
+to understand what ML engineering is and how ML engineering is tightly coupled with data
+engineering and app engineering: Let’s start with ML engineering. ML engineering is a superset of the discipline
+of software engineering and is designed to handle the unique complexities of the practical
+application of ML. MLOps is one of the methodologies adopted
+by ML engineering that focuses on operationalization and automation of model development, training,
+deployment, and governance processes. To learn more about ML engineering, check
+the reading at the end of this section. Let’s continue with data engineering. Data engineering focuses on ingesting, managing,
+and processing data to prepare datasets and features. All of these outputs created by data engineering,
+datasets and features, can be used in enterprise data warehouses, business intelligence or
+BI systems and ML engineering. And finally, there is app engineering. App engineering focuses on designing, developing,
+or migrating applications. Deploying ML models and integrating them with
+your applications and systems is the main subject of app engineering when you build
+an ML application. That means that engineering an ML enabled
+solution is an iterative process between the three disciplines:
+ML engineering uses the datasets and features produced by the Data Engineering team and
+feeds back the data requirements to the Data Engineering team. ML engineering also produces the models deployed
+by the App Engineering team, which in turn shares the application’s key performance
+indicators, or KPIs, with the ML Engineering team. Therefore, ML engineering should not be performed
+in isolation. Instead, it should use existing investments
+in DataOps and DevOps and integrate with the data engineering and app engineering to be
+effective. By the inspiration of this integration, the
+MLOps lifecycle can be divided in six iterative processes, and two cross-cutting processes
+in the center: The lifecycle starts with the ML development
+process, which is the developing and prototyping process of your ML models. This is mostly the experimentation phase of
+ML model development. The second process in the lifecycle is training
+operationalization, which refers to checking whether your model works on the production. This includes testing internal and external
+data connections and configurations and putting the model routine and a stable operational
+phase after the first experimentation phase is performed. Then, in the continuous training process,
+you retrain your production models with the new data. Next is the model deployment process, where
+actual continuous integration and delivery of your models occurs. The prediction or inference serving process
+refers to hosting ML models as services to serve online predictions or as part of a batch
+prediction system to serve offline predictions. And continuous monitoring is the final process,
+which stands for identifying and predicting model performance degradation, data skews
+and outliers. The central element of this lifecycle is data
+and model management, which are main functions for governing ML artifacts to support auditability,
+traceability, compliance, shareability, reusability, and discoverability of ML assets. An artifact is a discrete entity or piece
+of data produced and consumed by an ML workflow, such as datasets, models, input files and
+training logs. Note that data and model management processes
+are “transitional” phases. With the traditional components of an ML pipeline,
+you need to prepare data, perform feature engineering, train and tune the model, upload
+and store the model, compare the model to existing model versions, deploy the model,
+send prediction requests to the endpoint, present the model to any edge devices, and
+then monitor and manage the model. Vertex AI automates some of these steps, such
+as data preparation, feature engineering, model serving, and the ability to deploy to
+edge devices. Before you see how Vertex AI automates these
+steps, let’s first look at the reasons why Vertex AI serves the best in these different
+roles. Recall the different users within an organization
+that play a part in the ML lifecycle, such as product managers, data analysts and data
+engineers. These users have different needs and a comprehensive
+platform such as Vertex AI helps all of them thanks to its integration with different Google
+Cloud services that experiment with ML model development and quickly deploy solutions. There are four main reasons why Vertex AI
+serves the best in these different roles. First it provides a unified data and ML platform. A unified data and ML platform helps to build
+tighter connection points between data and ML. Therefore, it helps ML practitioners gain
+even greater value when they use all of our services to solve their largest problems. The second, Vertex AI lets ML practitioners
+achieve end-to-end MLOps. End-to-end MLOps helps ML practitioners efficiently
+and responsibly manage, monitor, govern, and explain ML projects throughout the entire
+development lifecycle. Thanks to its ready to use, prebuilt components,
+ML practitioners can achieve many ML tasks, including: Creating a new dataset and loading
+different data types, such as image, tabular, text, or video into the dataset. Exporting data from a dataset to Cloud Storage. Using BigQuery ML, Vertex AI custom training,
+or Vertex AI AutoML to train a model by using image, tabular, text, or video data. Running a custom training job by using a custom
+container or a Python package. Uploading an existing model to Vertex AI for
+batch or online prediction. And monitoring. These prebuilt components offer easier debugging
+and consistent interfaces to use standardized artifact types for input and output and cost
+efficiencies. Vertex AI also provides flexibility by delivering
+open and scalable ML infrastructure. The flexibility of data resources, ML framework,
+and hardware might accelerate the velocity of models into production. And finally, Vertex AI brings all the resources
+of Google to open source. In recent years, computing has both expanded
+as a field and grown in its importance to society. Similarly, the research conducted at Google
+has broadened dramatically. More than 3,000 Google and Deepmind researchers
+and more than 7,000 published publications drive better product performance and lower
+costs in many Google Cloud services recently. Building the next generation of data to AI,
+end-to-end MLOps and scalable infrastructure is happening in 3 phases: Phase 1 was for building a robust
+data foundation with services such as Bigtable or Pub/Sub. Phase 2 was for building an ML foundation
+with TensorFlow, TensorFlow Extended and Kubeflow. Phase 3 is now for building one
+unified AI platform by using many years of
+research and academic work. Vertex AI lets you access state-of-the-art
+AI algorithms developed by Google research to streamline complex AI use cases with optimized
+built-in infrastructure. Vertex AI drives more value from ML with access
+to state-of-the-art AI from Google Research and DeepMind and brings together all of Google
+Cloud services for building one unified AI platform with every ML tool you need, including
+the next generation of data-to-AI tools end-to-end MLOps capabilities, and scalable infrastructure. Vertex AI also integrates with widely used
+open source frameworks such as TensorFlow, PyTorch, and scikit-learn, along with supporting
+all ML frameworks and AI branches through custom containers for training and prediction.
